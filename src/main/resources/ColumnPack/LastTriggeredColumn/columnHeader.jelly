@@ -1,0 +1,5 @@
+<j:jelly xmlns:j="jelly:core">
+  <th tooltip="Last Triggered">
+    Last Triggered
+  </th>
+</j:jelly>

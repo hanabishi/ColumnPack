@@ -11,10 +11,10 @@ import java.util.Date;
 
 import org.kohsuke.stapler.DataBoundConstructor;
 
-public class LastBuiltColumn extends ListViewColumn {
+public class LastTriggeredColumn extends ListViewColumn {
 
     @DataBoundConstructor
-    public LastBuiltColumn() {
+    public LastTriggeredColumn() {
         super();
     }
 
@@ -29,7 +29,7 @@ public class LastBuiltColumn extends ListViewColumn {
     public static class DescriptorImpl extends ListViewColumnDescriptor {
         @Override
         public String getDisplayName() {
-            return "Last Built";
+            return "Last Triggered";
         }
     }
 
