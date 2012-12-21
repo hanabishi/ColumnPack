@@ -1,0 +1,5 @@
+<j:jelly xmlns:j="jelly:core">
+  <th tooltip="Last build (when the build started)">
+    Last Built
+  </th>
+</j:jelly>

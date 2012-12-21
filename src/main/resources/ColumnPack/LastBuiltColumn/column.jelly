@@ -1,0 +1,9 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:t="/lib/hudson">
+  <td>
+    ${it.getLabel(job)}
+      <j:if test="${job.getLastBuild()!=null}">
+        (#<a href="${job.getLastBuild().getUrl()}">${job.getLastBuild().getNumber()}</a>)    
+      </j:if>
+  </td>
+</j:jelly>

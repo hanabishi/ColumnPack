@@ -1,0 +1,8 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:t="/lib/hudson">
+  <td>
+    <j:if test="${!it.getIcon(job,subIconSize).isEmpty()}">
+        <img tooltip="Queued" src="${it.getIcon(job,subIconSize)}" />
+    </j:if>
+  </td>
+</j:jelly>
